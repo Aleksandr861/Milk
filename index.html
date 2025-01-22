@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Стоимость литра/кг</h1>
+  <div class="flex">
+    <div class="wraper">
+      <input id="userInput" type="number" placeholder="Введите цену товара в руб."><br>
+      <input id="userInputV" type="number" placeholder="Введите мл/гр"><br>
+      <button onclick="convert()" class="glow-on-hover" type="button">Convert</button>
+      <button onclick="reset()" class="glow-on-hover" type="button">Reset</button>
+      <p id="resultElement"></p>
+    </div>
+  
+    <div class="wraper">
+      <input id="userInput_two" type="number" placeholder="Введите цену товара в руб."><br>
+      <input id="userInputV_two" type="number" placeholder="Введите мл/гр"><br>
+      <button onclick="convert_two()" class="glow-on-hover" type="button">Convert</button>
+      <button onclick="reset_two()" class="glow-on-hover" type="button">Reset</button>
+      <p id="resultElement_two"></p>
+      </div>
+  
+    <div class="wraper">
+      <input id="userInput_three" type="number" placeholder="Введите цену товара в руб."><br>
+      <input id="userInputV_three" type="number" placeholder="Введите мл/гр"><br>
+      <button onclick="convert_three()" class="glow-on-hover" type="button">Convert</button>
+      <button onclick="reset_three()" class="glow-on-hover" type="button">Reset</button>
+      <p id="resultElement_three"></p>
+      </div>
+  </div>
+ 
+
+
+<script src="script.js"></script>
+</body>
+</html>
